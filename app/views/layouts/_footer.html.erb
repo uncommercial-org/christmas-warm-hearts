@@ -1,10 +1,11 @@
 <footer class="footer">
   <div class="footer-container1">
-    <span class="footer-text">© 2023 Акція "Зігрій серце воїна"</span>
+    <span class="footer-text">© 2023 <%= t('footer.title') %></span>
     <nav class="footer-nav">
-      <a href="/privacy" class="footer-text2">Політика приватності</a>
-      <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="footer-text2">Спільнота</a>
-      <a href="https://github.com/uncommercial-org/christmas-warm-hearts" rel="nofollow" target="_blank" class="footer-text2">GitHub</a>
+      <a href="?locale=<%= I18n.locale.to_s == 'uk' ? 'en' : 'uk' %>" class="home-nav5"><%= t('header.swith_lang') %></a>
+      <a href="/privacy" class="footer-text2"><%= t('footer.privacy') %></a>
+      <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="footer-text2"><%= t('footer.community') %></a>
+      <a href="https://github.com/uncommercial-org/christmas-warm-hearts" rel="nofollow" target="_blank" class="footer-text2"><%= t('footer.github') %></a>
     </nav>
   </div>
 </footer>
