@@ -44,7 +44,7 @@ window.onload = function(){
 
   if (pbButton) {
     pbButton.onclick = function () {
-      if (!pbButtonClicked) {
+      if (pbButtonClicked) {
         return true
       }
   
