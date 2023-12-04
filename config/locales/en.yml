@@ -1,31 +1,85 @@
-# Files in the config/locales directory are used for internationalization and
-# are automatically loaded by Rails. If you want to use locales other than
-# English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more about the API, please read the Rails Internationalization guide
-# at https://guides.rubyonrails.org/i18n.html.
-#
-# Be aware that YAML interprets the following case-insensitive strings as
-# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
-# must be quoted to be interpreted as strings. For example:
-#
-#     en:
-#       "yes": yup
-#       enabled: "ON"
-
 en:
-  hello: "Hello world"
+  meta:
+    title: Warm up Ukranian Warrior heart
+    description: Give warmth to those who are on the front lines protecting Ukrainian lives. This year we are writing letters not only to Santa, and also letters to the Ukraine Forces. We also collect small gifts that will be useful this winter.
+  header:
+    logo: Warm up ❤️ Warrior
+    write_letter: Write a letter
+    fast_donation: Fast donation
+    community: Community
+    how_to_help: How to help?
+    swith_lang: Українською
+  footer:
+    title: "Warm up Ukranian Warrior heart"
+    privacy: Privacy policy
+    community: Community
+    github: Public code
+  home:
+    header:
+      title: The purpose of the campaign
+      write_letter: Write a letter
+      p1: The purpose of this campaign is to give warmth to those who are on the front lines protecting Ukrainian lives.
+      p2: Our goal is to collect letters of thanks for the soldiers, which will convey our grateful attitude to their titanic work and provide psychological support.
+      p3: But that's not all! We also want to collect small boxes with useful gifts that will be able to give our soldiers something special and necessary in this winter time.
+    how_to_help:
+      title: How can I help?
+      subtitle: Any action is helpful
+      title1: Write a letter
+      title2: Make a donation
+      title3: Help to buy
+      title4: Share
+      description1_1: Sometimes words of support are more important than anything else.
+      description1_2: After writing a letter, it is guaranteed to fall into the hands of a warrior and warm his heart.
+      description2_1: From words to action - one step.
+      description2_2: You can help in collecting important things
+      description2_3: (chemical heaters, gloves, and other things)
+      description3_1: If you are able to purchase with your friends or coleagues a batch
+      description3_2_html: of items, that would also help a lot. Write  <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">here</a> for more detailed information.
+      description4_1: It is very important if as many people as possible know about this promotion.
+    buy:
+      title: What will be purchased?
+      subtitle: Below are the items that will be purchased and sent with the greeting letters.
+      description_html: You can buy such things yourself and send them to us. To do this, visit <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">the community chat</a>.
+    donate:
+      title: Make a donation
+      description1: We'll collect your letters and buy gifts, then will send them to those they support the most.
+      description2: May Ukrainian soldiers feel the warmth and gratitude we express to them. Join the campaign "Warm up ❤️ Warrior" and become part of this wave of goodness!
+      or: or
+      link_to_mono: Donate using Debit Card
+      link_to_privat_bank: Privat Bank
+      link_to_eu_bank: European Bank requisites
+    write_letter:
+      title: Write a letter
+      yes_i_donated: Yes, I have donated (optional, but very important)
+      form_placeholder: Say hello, tell about yourself and what you are grateful to Ukrainian defenders for
+      send_button: Send
+      response_title: Thank you!
+      response_description: Your letter will be checked before printing and will be added to the gift without changes.
+      error_html: An error occurred. Please send your email to <a href="mailto:warm-hearts@uncommercial.org?subject=Warm Hearts Campaign Email" class="focus-link">warm-hearts@uncommercial.org</a>.
+  privacy:
+    title: Privacy Policy
+    last_update: 'Last update: 11/30/2023'
+    intro: Welcome to the "Uncommercial Org" site! We appreciate your interest in our non-commercial campaign and want to provide you with information about how we collect, use and protect your personal information.
+    outro: Thank you for your trust and interest in our campaign. If you have any questions, don't hesitate to contact us.
+    gather_info:
+      title: 1. Collection of information
+      item1: '1.1 Personal information: We do not collect personal data.'
+      item2: '1.2 Site usage information: We automatically collect information about your interaction with our site, such as IP address, browser type, date and time of access, pages viewed.'
+    use_info:
+      title: 2. Information usage
+      item1: '2.1 Provision of services: We do not use your personal information to provide you with information about our organization and its activities.'
+      item2: '2.2 Statistics and analytics: We may use anonymized data for internal statistics, analysis of site usage and improvement of the quality of services provided.'
+    security:
+      title: 3. Data security
+      description: We take all reasonable steps to protect the information you provide from unauthorized access, use or disclosure.
+    external_links:
+      title: 4. Links to third-party resources
+      description: Our site may contain links to third-party web resources. We are not responsible for the privacy policies and security practices of such resources.
+    rights:
+      title: 5. Your rights
+      description: You have the right to request access, correction or deletion of information if you can prove that the information belongs to you, because we do not associate information with you personally in our database. If you have any questions or concerns about our privacy policy, please contact us at warm-hearts@uncommercial.org.
+    changes:
+      title: 6. Changes to the privacy policy
+      description: We reserve the right to make changes to our privacy policy. Any changes will be posted on this page.
+    
+    

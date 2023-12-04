@@ -2,41 +2,31 @@
       <div class="home-details1">
         <div class="home-container01">
           <div class="home-container02">
-            <h2 class="home-details-heading heading2">Мета акції</h2>
+            <h2 class="home-details-heading heading2"><%= t('home.header.title') %></h2>
             <span class="home-details-sub-heading">
               <span>
-                Мета цієї акції полягає в тому, щоб подарувати тепло тим,
-                хто стоїть на передовій захищаючи наше життя.
+                <%= t('home.header.p1') %>
               </span>
               <br />
               <span>
-                Наша мета - зібрати листи подяки для воїнів, які передадуть
-                наше вдячне ставлення до їх титанічної праці
+                <%= t('home.header.p2') %>
               </span>
-              <span>та нададуть психологічну підтримку.</span>
               <br />
               <br />
               <span>
-                Але це не все! Ми також хочемо зібрати маленькі коробочки з
-                корисними подарунками,
+                <%= t('home.header.p3') %>
               </span>
               <br />
-              <span>
-                які зможуть подарувати нашим воїнам дещо особливе і
-                потрібне.
-              </span>
-              <br />
-              <span></span>
             </span>
           </div>
-      <a class="big-button top-home-button button" href="/#letter">Написати листа</a>
+          <a class="big-button top-home-button button" href="/#letter"><%= t('home.header.write_letter') %></a>
         </div>
         <%= image_tag('home/header.jpg', class: 'home-details-image')%>
       </div>
     </div>
     <div class="home-steps" id="help">
-      <h1 class="home-text11">Як я можу допомогти?</h1>
-      <span class="home-text12">Будь яка дія допоможе</span>
+      <h1 class="home-text11"><%= t('home.how_to_help.title') %></h1>
+      <span class="home-text12"><%= t('home.how_to_help.subtitle') %></span>
       <div class="home-container03">
         <div class="home-step">
           <div class="home-container04">
@@ -51,12 +41,12 @@
             <div class="home-line1"></div>
           </div>
           <div class="home-container06">
-            <h1 class="home-text13">Написати лист підтримки</h1>
+            <h1 class="home-text13"><%= t('home.how_to_help.title1') %></h1>
             <span class="home-text14">
-              <span>Іноді слова підтримки важливіші за все.</span>
+              <span><%= t('home.how_to_help.description1_1') %></span>
               <br />
               <span>
-                Написавши лист він гарантовано попаде в руки воїна та зігріє його серце.
+                <%= t('home.how_to_help.description1_2') %>
               </span>
               <br />
             </span>
@@ -75,13 +65,13 @@
             <div class="home-line3"></div>
           </div>
           <div class="home-container09">
-            <h1 class="home-text19">Зробити донат</h1>
+            <h1 class="home-text19"><%= t('home.how_to_help.title2') %></h1>
             <span class="home-text20">
-              <span>Від слів до діла - один крок.</span>
+              <span><%= t('home.how_to_help.description2_1') %></span>
               <br />
-              <span>Ти маєш змогу допомогти у зборі на важливі речі</span>
+              <span><%= t('home.how_to_help.description2_2') %></span>
               <br />
-              <span>(хімічні грілки, рукавиці, та інші речі)</span>
+              <span><%= t('home.how_to_help.description2_3') %></span>
               <br />
             </span>
           </div>
@@ -99,12 +89,12 @@
             <div class="home-line5"></div>
           </div>
           <div class="home-container12">
-            <h1 class="home-text27">Закупити самотужки</h1>
+            <h1 class="home-text27"><%= t('home.how_to_help.title3') %></h1>
             <span class="home-text28">
-              <span>Якщо ти маєш змогу закупити партію</span>
+              <span><%= t('home.how_to_help.description3_1') %></span>
               <br />
               <span>
-                речей, це теж дуже допоможе. Напиши <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">сюди</a> за більш детальною інформацією.
+                <%= t('home.how_to_help.description3_2_html').html_safe %>
               </span>
               <br />
             </span>
@@ -123,10 +113,10 @@
             <div class="home-line7"></div>
           </div>
           <div class="home-container15">
-            <h1 class="home-text33">Пошерити інформацію</h1>
+            <h1 class="home-text33"><%= t('home.how_to_help.title4') %></h1>
             <span class="home-text34">
               <span>
-                Дуже важливо якщо про цю акцію дізнається якомога більше людей.
+                <%= t('home.how_to_help.description4_1') %>
               </span>
               <br />
             </span>
@@ -134,53 +124,60 @@
         </div>
       </div>
     </div>
-    <div class="home-products">
-      <h1 class="home-text37">Що буде закуплено?</h1>
+    <div class="home-products" id="buy">
+      <h1 class="home-text37"><%= t('home.buy.title') %></h1>
       <span class="home-text38">
         <span>
-          Нижче наведені товари, які будуть закуплені та передані разом з листами привітаннями.
+          <%= t('home.buy.subtitle') %>
         </span>
         <br />
         <span>
-          Ви можете самотужки закупити такі речі та відправити нам. Для цього завітай до <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">чату спільноти</a>.
+          <%= t('home.buy.description_html') %>
         </span>
       </span>
       <div class="home-container16">
         <a href="https://makitra.ua/ua/termokruzhka-con-brio-364-cb-iz-nerzhaveyushhej-stali" rel="nofollow" target="_blank">
-          <%= image_tag('home/p1.jpg', class: 'home-image')%>
+          <%= image_tag('home/p1.jpg', class: 'home-image') %>
         </a>
-        <a href="https://turkishammunition.com.ua/tproduct/430959197-837686237421-termoshuzi-termal-mest?fbclid=IwAR0lpopfNQ05TSa3BkSOM7pUoBkYd64hKSNCnXjorZmaJXyfP9gbFBXaNlo_aem_Acy33SckGu-Ff0i-4tg3DNki9J7ZXE33KbiC_tNmIHwV7kWxfC792XP2Rpn6t7IvfGDcrSho5-0NltUZn3rt41XO" rel="nofollow" target="_blank">
-          <%= image_tag('home/p3.jpg', class: 'home-image')%>
+        <a href="https://turkishammunition.com.ua/tproduct/430959197-837686237421-termoshuzi-termal-mest" rel="nofollow" target="_blank">
+          <%= image_tag('home/p3.jpg', class: 'home-image') %>
         </a>
         <a href="https://stockstroy.com/p1752874583-zimovi-taktichni-rukavichki.html" rel="nofollow" target="_blank">
-          <%= image_tag('home/p2.jpg', class: 'home-image')%>
+          <%= image_tag('home/p2.jpg', class: 'home-image') %>
+        </a>
+        <a href="https://rozetka.com.ua/ua/385163715/p385163715/" rel="nofollow" target="_blank">
+          <%= image_tag('home/p4.jpg', class: 'home-image') %>
+        </a>
+        <a href="https://5vhot.com.ua/kylymky/uk-kilimok-taktichniy-z-p-d-gr-vom-p-ksel" rel="nofollow" target="_blank">
+          <%= image_tag('home/p5.jpg', class: 'home-image') %>
         </a>
       </div>
     </div>
     <div class="home-donate">
-      <h1 class="home-text42">Зробити донат</h1>
+      <h1 class="home-text42"><%= t('home.donate.title') %></h1>
       <span class="home-text43">
         <span>
-          Ми збиратимемо ваші листівки та закупимо подарунки, а потім
-          відправимо їх тим, кого вони найбільше підтримають.
+          <%= t('home.donate.description1') %>
         </span>
         <br />
         <span>
-          Нехай наші воїни відчувають тепло та вдячність, які ми їм
-          висловлюємо. Долучайтеся до акції "Зігрій ❤️ Воїна" та станьте
-          частиною цієї хвилі добра!
+          <%= t('home.donate.description2') %>
         </span>
       </span>
       <div class="home-btn-group">
         <a href="https://send.monobank.ua/jar/AXJUwUfrU7" rel="nofollow" target="_blank" class="home-button1 button">
-          Посилання на банку Моно
+          <%= t('home.donate.link_to_mono') %>
         </a>
-        <span class="home-text47">або</span>
-        <div class="home-button2 button" id="show_pb_number">Реквізити Приват Банку</div>
+        <% if I18n.locale.to_s == 'uk' %>
+          <span class="or-text"><%= t('home.donate.or') %></span>
+          <div class="home-button2 button" id="show_pb_number"><%= t('home.donate.link_to_privat_bank') %></div>
+        <% end %>
+        <span class="or-text"><%= t('home.donate.or') %></span>
+        <div class="home-button1 button" id="show_eu_number"><%= t('home.donate.link_to_eu_bank') %></div>
       </div>
     </div>
     <div class="home-write" id="letter">
-      <h1 class="home-text48">Написати листа</h1>
+      <h1 class="home-text48"><%= t('home.write_letter.title') %></h1>
       
       <div class="form-blocks">
         <div id="letter_front_side">
@@ -189,8 +186,8 @@
 
         <div class="form-wrapper" id="letter_back_side" style="display: none;">
           <div class="response-wrapper">
-            <h2>Дякую!</h2>
-            <p>Твій лист буде перевірений перед друком та без змін буде доданий до подарунку.</p>
+            <h2><%= t('home.write_letter.response_title') %></h2>
+            <p><%= t('home.write_letter.response_description') %></p>
           </div>
     </div>
   </div>

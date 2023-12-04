@@ -13,6 +13,10 @@ window.onload = function(){
 
   const formElem = document.getElementById("form_letter")
   const pbButton = document.getElementById("show_pb_number")
+  const euButton = document.getElementById("show_eu_number")
+
+  let pbButtonClicked = false;
+  let euButtonClicked = false;
 
   formElem.onsubmit = (e) => {
     e.preventDefault();
@@ -38,7 +42,26 @@ window.onload = function(){
     });
   };
 
-  pbButton.onclick = function () {
-    pbButton.innerHTML = "5168 7520 1327 7994";
+  if (pbButton) {
+    pbButton.onclick = function () {
+      if (!pbButtonClicked) {
+        return true
+      }
+  
+      pbButton.innerHTML = "5168 7520 1327 7994";
+      pbButtonClicked = true;
+    }
+  }
+
+  euButton.onclick = function () {
+    if (euButtonClicked) {
+      return true
+    }
+
+    euButton.innerHTML = `
+    Account holder: Evghenii Melnic<br>
+    IBAN: BE16967185901674<br>
+    Reference: Charity Warm hearts`;
+    euButtonClicked = true;
   }
 };
