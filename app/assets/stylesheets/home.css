@@ -68,14 +68,15 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  column-gap: 8px;
 }
 .home-register {
   color: var(--dl-color-white);
   transition: 0.3s;
   border-color: var(--dl-color-blue-main);
   padding-left: 1.5rem;
-  border-radius: 45px;
   padding-right: 1.5rem;
+  border-radius: 45px;
   background-color: var(--dl-color-blue-main);
 }
 .home-register:hover {
@@ -84,8 +85,9 @@
   cursor: pointer;
 }
 .home-button {
-  margin-left: var(--dl-space-space-unit);
   border-color: var(--dl-color-blue-main);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   border-radius: 45px;
   color: var(--dl-color-blue-main);
   background-color: var(--dl-color-yellow-main);
@@ -94,6 +96,14 @@
   background-color: var(--dl-color-blue-main);
   color: var(--dl-color-white);
   cursor: pointer;
+}
+.change-lang {
+  border-color: var(--dl-color-blue-main);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 45px;
+  background-color: var(--dl-color-white);
+  color: var(--dl-color-blue-main);
 }
 .home-burger-menu {
   display: none;
@@ -162,9 +172,9 @@
 .home-buttons1 {
   display: flex;
   margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 100%;
 }
 .home-login {
   border-color: var(--dl-color-primary1-blue100);
