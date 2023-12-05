@@ -7,8 +7,8 @@ uk:
     write_letter: Написати листа
     fast_donation: Швидкий донат
     community: Спільнота
-    how_to_help: Як долучитись?  
-    swith_lang: In English
+    how_to_help: Як долучитись?
+    switch_lang: English
   footer:
     title: Акція "Зігрій серце воїна"
     privacy: Політика приватності
@@ -81,5 +81,4 @@ uk:
     changes:
       title: 6. Зміни в політиці конфіденційності
       description: Ми залишаємо за собою право вносити зміни в нашу політику конфіденційності. Будь-які зміни будуть опубліковані на цій сторінці.
-    
     
