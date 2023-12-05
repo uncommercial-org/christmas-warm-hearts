@@ -23,6 +23,9 @@ class LettersController < ApplicationController
 
   def verify_recaptcha?(token, recaptcha_action)
     secret_key = Rails.configuration.recaptcha[:recaptcha_secret_key]
+    return true if secret_key.blank? && Rails.env.local?
+
+
     uri = URI.parse("https://www.google.com/recaptcha/api/siteverify?secret=#{secret_key}&response=#{token}")
     response = Net::HTTP.get_response(uri)
     json = JSON.parse(response.body)
