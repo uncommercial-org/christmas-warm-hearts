@@ -1,22 +1,14 @@
-<%= form_for(@letter, 
-             url: url_for(controller: '/letters', action: 'create'),
+<%= form_for(Letter.new, 
+             url: nil,
              as: :letter,
-             authenticity_token: true,
-             html: { method: :post, id: 'form_letter' }) do |form| %>
-  <%= recaptcha_execute() %>
-
+             html: { method: :post }) do |form| %>
   <div class="form-wrapper">
-    <%= form.text_area :letter_text, required: true, rows: 20, cols: 60, id: 'letter_text', class: 'home-textarea textarea', placeholder: t('home.write_letter.form_placeholder') %>
+    <%= form.text_area :letter_text, disabled: true, rows: 20, cols: 60, class: 'home-textarea textarea', placeholder: t('home.write_letter.form_placeholder') %>
   </div>
 
-  <div class="home-container17">
-    <input type="checkbox" class="home-checkbox" />
-    <label class="home-text50"><%= t('home.write_letter.yes_i_donated') %></label>
+  <div class="home-container17" id="error_container">
+    <label class="home-text50"><%= t('home.write_letter.finished_html') %></label>
   </div>
 
-  <div class="home-container17" id="error_container" style="display:none;">
-    <label class="home-text50"><%= t('home.write_letter.error_html') %></label>
-  </div>
-
-  <%= form.submit t('home.write_letter.send_button'), class:'letter-button big-button button', id: 'letter-button' %>
+  <%= form.submit t('home.write_letter.send_button'), disabled: true, class:'letter-button big-button button', id: 'letter-button' %>
 <% end %> 
