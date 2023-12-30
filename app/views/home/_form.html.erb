@@ -1,14 +1,11 @@
-<%= form_for(Letter.new, 
-             url: nil,
-             as: :letter,
-             html: { method: :post }) do |form| %>
+<form>
   <div class="form-wrapper">
-    <%= form.text_area :letter_text, disabled: true, rows: 20, cols: 60, class: 'home-textarea textarea', placeholder: t('home.write_letter.form_placeholder') %>
+    <textarea value="" type="text" rows="20" cols="60" class="home-textarea textarea" placeholder="<%= t('home.write_letter.form_placeholder') %>"></textarea>
   </div>
 
   <div class="home-container17" id="error_container">
     <label class="home-text50"><%= t('home.write_letter.finished_html') %></label>
   </div>
 
-  <%= form.submit t('home.write_letter.send_button'), disabled: true, class:'letter-button big-button button', id: 'letter-button' %>
-<% end %> 
+  <input type="submit" value="<%= t('home.write_letter.send_button') %>" disabled="true" class="letter-button big-button button" id="letter-button">
+</form>
