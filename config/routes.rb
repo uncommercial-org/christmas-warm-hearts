@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   root "home#index"
   get "privacy" => "privacy#index"
 
-  resources :letters, only: [:create]
+  # resources :letters, only: [:create]
 end

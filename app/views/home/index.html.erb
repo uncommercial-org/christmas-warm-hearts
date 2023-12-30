@@ -1,194 +1,120 @@
-    <div class="home-details">
-      <div class="home-details1">
-        <div class="home-container01">
-          <div class="home-container02">
-            <h2 class="home-details-heading heading2"><%= t('home.header.title') %></h2>
-            <span class="home-details-sub-heading">
-              <span>
-                <%= t('home.header.p1') %>
-              </span>
-              <br />
-              <span>
-                <%= t('home.header.p2') %>
-              </span>
-              <br />
-              <br />
-              <span>
-                <%= t('home.header.p3') %>
-              </span>
-              <br />
-            </span>
-          </div>
-          <a class="big-button top-home-button button" href="/#letter"><%= t('home.header.write_letter') %></a>
+<div class="home-details">
+  <div class="home-details1">
+    <div class="home-container01">
+      <div class="home-container02">
+        <h2 class="home-details-heading heading2"><%= t('home.header.title') %></h2>
+        <span class="home-details-sub-heading">
+          <span>
+            <%= t('home.header.p1') %>
+          </span>
+          <br />
+          <span>
+            <%= t('home.header.p2') %>
+          </span>
+          <br />
+          <br />
+          <span>
+            <%= t('home.header.p3') %>
+          </span>
+          <br />
+        </span>
+      </div>
+      <a class="big-button top-home-button button" href="/#help_results"><%= t('home.header.help_results') %></a>
+    </div>
+    <%= image_tag('home/header.jpg', class: 'home-details-image')%>
+  </div>
+</div>
+<div class="home-steps" id="help_results">
+  <h1 class="home-text11"><%= t('home.help_results.title') %></h1>
+  <span class="home-text12"><%= t('home.help_results.subtitle') %></span>
+  <div class="home-container-steps">
+    <div class="home-step">
+      <div class="home-container-icon-block">
+        <div class="home-line-before"></div>
+        <div class="home-container-round-icon">
+          210
         </div>
-        <%= image_tag('home/header.jpg', class: 'home-details-image')%>
+        <div class="home-line-after"></div>
+      </div>
+      <div class="home-container-text-block">
+        <h1 class="home-container-icon-title"><%= t('home.help_results.title1') %></h1>
+        <span class="home-text-description">
+          <span><%= t('home.help_results.description1_1') %></span>
+          <br />
+        </span>
       </div>
     </div>
-    <div class="home-steps" id="help">
-      <h1 class="home-text11"><%= t('home.how_to_help.title') %></h1>
-      <span class="home-text12"><%= t('home.how_to_help.subtitle') %></span>
-      <div class="home-container03">
-        <div class="home-step">
-          <div class="home-container04">
-            <div class="home-line"></div>
-            <div class="home-container05">
-              <svg viewBox="0 0 1024 1024" class="home-icon04">
-                <path
-                  d="M128 337.963l359.552 251.691c14.507 10.027 33.92 10.496 48.939 0l359.509-251.691v430.037c0 11.605-4.693 22.229-12.587 30.080s-18.475 12.587-30.080 12.587h-682.667c-11.605 0-22.229-4.693-30.080-12.587s-12.587-18.475-12.587-30.080zM42.667 256.512v511.488c0 35.328 14.507 67.371 37.547 90.453s55.125 37.547 90.453 37.547h682.667c35.328 0 67.371-14.507 90.453-37.547s37.547-55.125 37.547-90.453v-511.488c0-0.427 0-0.853 0-1.28-0.213-35.029-14.635-66.773-37.547-89.685-23.083-23.040-55.125-37.547-90.453-37.547h-682.667c-35.328 0-67.371 14.507-90.453 37.547-22.912 22.912-37.333 54.656-37.547 89.728 0 0.213 0 0.469 0 0.725zM891.477 236.971l-379.477 265.6-379.477-265.6c2.048-4.096 4.779-7.808 8.021-11.051 7.893-7.893 18.517-12.587 30.123-12.587h682.667c11.605 0 22.229 4.693 30.080 12.587 3.243 3.243 5.973 6.997 8.021 11.051z"
-                ></path>
-              </svg>
-            </div>
-            <div class="home-line1"></div>
-          </div>
-          <div class="home-container06">
-            <h1 class="home-text13"><%= t('home.how_to_help.title1') %></h1>
-            <span class="home-text14">
-              <span><%= t('home.how_to_help.description1_1') %></span>
-              <br />
-              <span>
-                <%= t('home.how_to_help.description1_2') %>
-              </span>
-              <br />
-            </span>
-          </div>
+    <div class="home-step">
+      <div class="home-container-icon-block">
+        <div class="home-line-before"></div>
+        <div class="home-container-round-icon">
+          75000
         </div>
-        <div class="home-step1">
-          <div class="home-container07">
-            <div class="home-line2"></div>
-            <div class="home-container08">
-              <svg viewBox="0 0 1024 1024" class="home-icon06">
-                <path
-                  d="M928 128h-832c-52.8 0-96 43.2-96 96v576c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-576c0-52.8-43.2-96-96-96zM96 192h832c17.346 0 32 14.654 32 32v96h-896v-96c0-17.346 14.654-32 32-32zM928 832h-832c-17.346 0-32-14.654-32-32v-288h896v288c0 17.346-14.654 32-32 32zM128 640h64v128h-64zM256 640h64v128h-64zM384 640h64v128h-64z"
-                ></path>
-              </svg>
-            </div>
-            <div class="home-line3"></div>
-          </div>
-          <div class="home-container09">
-            <h1 class="home-text19"><%= t('home.how_to_help.title2') %></h1>
-            <span class="home-text20">
-              <span><%= t('home.how_to_help.description2_1') %></span>
-              <br />
-              <span><%= t('home.how_to_help.description2_2') %></span>
-              <br />
-              <span><%= t('home.how_to_help.description2_3') %></span>
-              <br />
-            </span>
-          </div>
-        </div>
-        <div class="home-step2">
-          <div class="home-container10">
-            <div class="home-line4"></div>
-            <div class="home-container11">
-              <svg viewBox="0 0 1024 1024" class="home-icon08">
-                <path
-                  d="M768 790q28 0 46-19t18-45-18-45-46-19-46 19-18 45 18 45 46 19zM832 406h-106v106h190zM256 790q28 0 46-19t18-45-18-45-46-19-46 19-18 45 18 45 46 19zM854 342l128 170v214h-86q0 52-38 90t-90 38-90-38-38-90h-256q0 52-38 90t-90 38-90-38-38-90h-86v-470q0-34 26-60t60-26h598v172h128z"
-                ></path>
-              </svg>
-            </div>
-            <div class="home-line5"></div>
-          </div>
-          <div class="home-container12">
-            <h1 class="home-text27"><%= t('home.how_to_help.title3') %></h1>
-            <span class="home-text28">
-              <span><%= t('home.how_to_help.description3_1') %></span>
-              <br />
-              <span>
-                <%= t('home.how_to_help.description3_2_html').html_safe %>
-              </span>
-              <br />
-            </span>
-          </div>
-        </div>
-        <div class="home-step3">
-          <div class="home-container13">
-            <div class="home-line6"></div>
-            <div class="home-container14">
-              <svg viewBox="0 0 1024 1024" class="home-icon10">
-                <path
-                  d="M691.797 772.181c1.067-1.408 2.048-2.859 2.987-4.437 0.853-1.493 1.621-3.029 2.304-4.565 3.115-4.608 6.656-8.917 10.581-12.843 15.488-15.488 36.736-25.003 60.331-25.003s44.843 9.515 60.331 25.003 25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331c0-13.867 3.285-26.923 9.131-38.485zM695.509 258.389c-0.384-0.725-0.768-1.451-1.195-2.176s-0.853-1.451-1.323-2.133c-6.571-12.075-10.325-25.941-10.325-40.747 0-23.595 9.515-44.843 25.003-60.331s36.736-25.003 60.331-25.003 44.843 9.515 60.331 25.003 25.003 36.736 25.003 60.331-9.515 44.843-25.003 60.331-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003c-4.608-4.608-8.704-9.728-12.16-15.275zM328.491 466.944c0.384 0.725 0.768 1.451 1.195 2.176s0.853 1.451 1.323 2.133c6.571 12.075 10.325 25.941 10.325 40.747s-3.755 28.672-10.368 40.789c-0.469 0.683-0.896 1.408-1.323 2.133s-0.811 1.408-1.152 2.133c-3.456 5.547-7.552 10.667-12.16 15.275-15.488 15.488-36.736 25.003-60.331 25.003s-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003 44.843 9.515 60.331 25.003c4.608 4.608 8.704 9.728 12.16 15.275zM603.733 259.755l-226.475 132.139c-0.171-0.213-0.384-0.384-0.597-0.597-30.805-30.805-73.557-49.963-120.661-49.963s-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005c0.213-0.213 0.384-0.384 0.597-0.597l226.517 132.011c-4.181 14.805-6.443 30.464-6.443 46.592 0 47.104 19.157 89.856 50.005 120.661s73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005c-0.128 0.128-0.299 0.299-0.427 0.427l-226.645-132.053c4.181-14.763 6.4-30.293 6.4-46.379s-2.219-31.659-6.4-46.421l226.475-132.181c0.171 0.213 0.384 0.384 0.597 0.597 30.805 30.848 73.557 50.005 120.661 50.005s89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661-19.157-89.856-50.005-120.661-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661c0 16.085 2.219 31.659 6.4 46.421z"
-                ></path>
-              </svg>
-            </div>
-            <div class="home-line7"></div>
-          </div>
-          <div class="home-container15">
-            <h1 class="home-text33"><%= t('home.how_to_help.title4') %></h1>
-            <span class="home-text34">
-              <span>
-                <%= t('home.how_to_help.description4_1') %>
-              </span>
-              <br />
-            </span>
-          </div>
-        </div>
+        <div class="home-line-after"></div>
+      </div>
+      <div class="home-container-text-block">
+        <h1 class="home-container-icon-title"><%= t('home.help_results.title2') %></h1>
+        <span class="home-text-description">
+          <span><%= t('home.help_results.description2_1') %></span>
+        </span>
       </div>
     </div>
-    <div class="home-products" id="buy">
-      <h1 class="home-text37"><%= t('home.buy.title') %></h1>
-      <span class="home-text38">
-        <span>
-          <%= t('home.buy.subtitle') %>
-        </span>
-        <br />
-        <span>
-          <%= t('home.buy.description_html') %>
-        </span>
-      </span>
-      <div class="home-container16">
-        <a href="https://makitra.ua/ua/termokruzhka-con-brio-364-cb-iz-nerzhaveyushhej-stali" rel="nofollow" target="_blank">
-          <%= image_tag('home/p1.jpg', class: 'home-image') %>
-        </a>
-        <a href="https://turkishammunition.com.ua/tproduct/430959197-837686237421-termoshuzi-termal-mest" rel="nofollow" target="_blank">
-          <%= image_tag('home/p3.jpg', class: 'home-image') %>
-        </a>
-        <a href="https://stockstroy.com/p1752874583-zimovi-taktichni-rukavichki.html" rel="nofollow" target="_blank">
-          <%= image_tag('home/p2.jpg', class: 'home-image') %>
-        </a>
-        <a href="https://rozetka.com.ua/ua/385163715/p385163715/" rel="nofollow" target="_blank">
-          <%= image_tag('home/p4.jpg', class: 'home-image') %>
-        </a>
-        <a href="https://5vhot.com.ua/kylymky/uk-kilimok-taktichniy-z-p-d-gr-vom-p-ksel" rel="nofollow" target="_blank">
-          <%= image_tag('home/p5.jpg', class: 'home-image') %>
-        </a>
-      </div>
-    </div>
-    <div class="home-donate">
-      <h1 class="home-text42"><%= t('home.donate.title') %></h1>
-      <span class="home-text43">
-        <span>
-          <%= t('home.donate.description1') %>
-        </span>
-        <br />
-        <span>
-          <%= t('home.donate.description2') %>
-        </span>
-      </span>
-      <div class="home-btn-group">
-        <a href="https://send.monobank.ua/jar/AXJUwUfrU7" rel="nofollow" target="_blank" class="home-button1 button">
-          <%= t('home.donate.link_to_mono') %>
-        </a>
-        <% if I18n.locale.to_s == 'uk' %>
-          <span class="or-text"><%= t('home.donate.or') %></span>
-          <div class="home-button2 button" id="show_pb_number"><%= t('home.donate.link_to_privat_bank') %></div>
-        <% end %>
-        <span class="or-text"><%= t('home.donate.or') %></span>
-        <div class="home-button1 button" id="show_eu_number"><%= t('home.donate.link_to_eu_bank') %></div>
-      </div>
-    </div>
-    <div class="home-write" id="letter">
-      <h1 class="home-text48"><%= t('home.write_letter.title') %></h1>
-      
-      <div class="form-blocks">
-        <div id="letter_front_side">
-          <%= render "form" %>
+    <div class="home-step">
+      <div class="home-container-icon-block">
+        <div class="home-line-before"></div>
+        <div class="home-container-round-icon">
+          1428
         </div>
-
-        <div class="form-wrapper" id="letter_back_side" style="display: none;">
-          <div class="response-wrapper">
-            <h2><%= t('home.write_letter.response_title') %></h2>
-            <p><%= t('home.write_letter.response_description') %></p>
-          </div>
+        <div class="home-line-after"></div>
+      </div>
+      <div class="home-container-text-block">
+        <h1 class="home-container-icon-title"><%= t('home.help_results.title3') %></h1>
+        <span class="home-text-description">
+          <span><%= t('home.help_results.description3_1') %></span>
+        </span>
+      </div>
     </div>
+    <div class="home-step">
+      <div class="home-container-icon-block">
+        <div class="home-line-before"></div>
+        <div class="home-container-round-icon">
+          200
+        </div>
+        <div class="home-line-after"></div>
+      </div>
+      <div class="home-container-text-block">
+        <h1 class="home-container-icon-title"><%= t('home.help_results.title4') %></h1>
+        <span class="home-text-description">
+          <span>
+            <%= t('home.help_results.description4_1') %>
+          </span>
+          <br />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="home-products" id="photos">
+  <h1 class="home-text37"><%= t('home.photo.title') %></h1>
+  <span class="home-text38">
+    <span>
+      <%= t('home.photo.subtitle') %>
+    </span>
+  </span>
+  <div class="home-container-photos">
+    <%= image_tag('home/report1.jpg', class: 'home-image') %>
+    <%= image_tag('home/report2.jpg', class: 'home-image') %>
+    <%= image_tag('home/report3.jpg', class: 'home-image') %>
+    <%= image_tag('home/report4.jpg', class: 'home-image') %>
+    <%= image_tag('home/report5.jpg', class: 'home-image') %>
+    <%= image_tag('home/report6.jpg', class: 'home-image') %>
+    <%= image_tag('home/report7.jpg', class: 'home-image') %>
+  </div>
+</div>
+<div class="home-write" id="letter">
+  <h1 class="home-text48"><%= t('home.write_letter.title') %></h1>
+  
+  <div class="form-blocks">
+    <%= render "form" %>
   </div>
 </div>

@@ -4,10 +4,8 @@ en:
     description: Give warmth to those who are on the front lines protecting Ukrainian lives. This year we are writing letters not only to Santa, and also letters to the Ukraine Forces. We also collect small gifts that will be useful this winter.
   header:
     logo: Warm up ❤️ Warrior
-    write_letter: Write a letter
-    fast_donation: Fast donation
     community: Community
-    how_to_help: How to help?
+    help_results: Progress report
     switch_lang: Українською
   footer:
     title: "Warm up Ukranian Warrior heart"
@@ -17,45 +15,31 @@ en:
   home:
     header:
       title: The purpose of the campaign
-      write_letter: Write a letter
+      help_results: Go to progress report
       p1: The purpose of this campaign is to give warmth to those who are on the front lines protecting Ukrainian lives.
       p2: Our goal is to collect letters of thanks for the soldiers, which will convey our grateful attitude to their titanic work and provide psychological support.
-      p3: But that's not all! We also want to collect small boxes with useful gifts that will be able to give our soldiers something special and necessary in this winter time.
-    how_to_help:
-      title: How can I help?
-      subtitle: Any action is helpful
-      title1: Write a letter
-      title2: Make a donation
-      title3: Help to buy
-      title4: Share
-      description1_1: Sometimes words of support are more important than anything else.
-      description1_2: After writing a letter, it is guaranteed to fall into the hands of a warrior and warm his heart.
-      description2_1: From words to action - one step.
-      description2_2: You can help in collecting important things
-      description2_3: (chemical heaters, gloves, and other things)
-      description3_1: If you are able to purchase with your friends or coleagues a batch
-      description3_2_html: of items, that would also help a lot. Write  <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">here</a> for more detailed information.
-      description4_1: It is very important if as many people as possible know about this promotion.
-    buy:
-      title: What will be purchased?
-      subtitle: Below are the items that will be purchased and sent with the greeting letters.
-      description_html: You can buy such things yourself and send them to us. To do this, visit <a href="https://t.me/christmas_warm_hearts_chat" rel="nofollow" target="_blank" class="focus-link">the community chat</a>.
-    donate:
-      title: Make a donation
-      description1: We'll collect your letters and buy gifts, then will send them to those they support the most.
-      description2: May Ukrainian soldiers feel the warmth and gratitude we express to them. Join the campaign "Warm up ❤️ Warrior" and become part of this wave of goodness!
-      or: or
-      link_to_mono: Donate using Debit Card
-      link_to_privat_bank: Privat Bank
-      link_to_eu_bank: European Bank requisites
+      p3: But that's not all! We also want to collect small boxes with useful gifts that will be able to give Ukrainian soldiers something special and necessary in this winter time.
+    help_results:
+      title: Progress report
+      subtitle: Below described information about gathered money, bought products and collected letters.
+      title1: Letters
+      title2: Money (UAH)
+      title3: Obtained for free
+      title4: Collected boxes
+      description1_1: Letters were collected on the website and offline with the help of volunteers.
+      description2_1: Approximately this sum in UAH was colleced on different accounts of our volunteers.
+      description3_1: So many items were donated to us. Among them are 137 power banks, 200 pieces each packages of chocolate, toothpaste, antiseptic, hand cream and others items.
+      description4_1: We managed to collect and deliver such a number of boxes with warm things and gifts for Christmas to Ukrainian defenders.
+    photo:
+      title: Results in photos
+      subtitle: "We managed to create and send 200 individual boxes with useful things for winter and letters to Ukrainian defenders. The box include: Chemical heaters, a heated mat or electric insoles, a power bank, hygiene products, sweets, coffee, flu teas, a letter."
     write_letter:
       title: Write a letter
-      yes_i_donated: Yes, I have donated (optional, but very important)
       form_placeholder: Say hello, tell about yourself and what you are grateful to Ukrainian defenders for
       send_button: Send
       response_title: Thank you!
       response_description: Your letter will be checked before printing and will be added to the gift without changes.
-      error_html: An error occurred. Please send your email to <a href="mailto:warm-hearts@uncommercial.org?subject=Warm Hearts Campaign Email" class="focus-link">warm-hearts@uncommercial.org</a>.
+      finished_html: Collecting letters are finished! Thank you for your visit!
   privacy:
     title: Privacy Policy
     last_update: 'Last update: 11/30/2023'
